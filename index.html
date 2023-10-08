@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Stylesheet link -->
+    <link rel="stylesheet" href="style/style.css">
+    <!-- Allows me to use the selected fonts from google fonts in my css-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <nav>
+        <!-- nav bar img -->
+        <div class="nav-img">
+            <img src="/images/wildcardLogo.jpeg">
+        </div>
+        <!-- buttons in the nav bar -->
+        <div class="nav-buttons">
+            <a href="#form">Beta sign up</a>
+            <a href="#extinction">Extinction</a>
+            <a href="#genesis">Genesis</a>
+            <a href="#abberation">Abberation</a>
+        </div>
+    </nav>
+    <header>
+        <!-- Ark product introduction -->
+        <section class="header-section" id="header-section">
+            <h1>Ark: Survival Evolved</h1>
+            <p>"ARK: Survival Evolved" is an open-world survival video game that challenges players to survive in a
+                prehistoric world filled with dinosaurs and other dangerous creatures. Players must gather resources,
+                build shelters, tame and ride dinosaurs, and form tribes to thrive in this hostile environment. The game
+                offers a combination of crafting, exploration, and dinosaur-focused gameplay, making it a unique and
+                exciting experience for fans of both survival and dinosaur genres.</p>
+                <!-- Buttons in the header -->
+            <div class="header-buttons">
+                <a href="#dlc-section">Dlc's</a>
+                <a href="#beta">Beta</a>
+            </div>
+        </section>
+    </header>
+    <main>
+        <!-- Section for all the downloadable content for ark-->
+        <section class="dlc-section" id="dlc-section">
+            <h2>Ark downloadable content</h2>
+            <div class="dlcs">
+                <!-- Extinction dlc card -->
+                <article class="dlc" id="extinction">
+                    <!-- image for the specific -->
+                    <div class="dlc-img">
+                        <img src="images/arkExt.jpg">
+                    </div>
+                    <div class="dlc-content">
+                        <div>
+                            <h3>Extinction</h3>
+                            <div class="ratings">
+                                <span class="checked">★</span>
+                                <span class="checked">★</span>
+                                <span class="checked">★</span>
+                                <span class="checked">★</span>
+                                <span class="unchecked">★</span>
+                            </div>
+                            <p>"ARK: Extinction" is an expansion pack for the game "ARK: Survival Evolved" that
+                                introduces a
+                                post-apocalyptic environment filled with futuristic creatures and challenges, offering
+                                players a new survival experience in a devastated world.</p>
+                        </div>
+                        <div class="dlc-link">
+                            <a href="#dlc-section">Get product</a>
+                        </div>
+                    </div>
+                </article>
+                <!-- Genesis dlc card -->
+                <article class="dlc" id="genesis">
+                    <div class="dlc-img">
+                        <img src="images/arkGen.jpg">
+                    </div>
+                    <div class="dlc-content">
+                        <div>
+                            <h3>Genesis</h3>
+                            <div class="ratings">
+                                <span class="checked">★</span>
+                                <span class="checked">★</span>
+                                <span class="checked">★</span>
+                                <span class="unchecked">★</span>
+                                <span class="unchecked">★</span>
+                            </div>
+                            <p>"ARK: Genesis" is an expansion pack for "ARK: Survival Evolved" that transports players
+                                to a
+                                surreal, sci-fi world featuring unique biomes, creatures, and challenges. It offers new
+                                gameplay mechanics, missions, and a compelling storyline set in a visually stunning
+                                environment.</p>
+                        </div>
+                        <div class="dlc-link">
+                            <a href="#dlc-section">Get product</a>
+                        </div>
+                    </div>
+                </article>
+                <!-- Abberation dlc card -->
+                <article class="dlc" id="abberation">
+                    <div class="dlc-img">
+                        <img src="images/arkAbb.png">
+                    </div>
+                    <div class="dlc-content">
+                        <div>
+                            <h3>Abberation</h3>
+                            <div class="ratings">
+                                <span class="checked">★</span>
+                                <span class="checked">★</span>
+                                <span class="checked">★</span>
+                                <span class="checked">★</span>
+                                <span class="checked">★</span>
+                            </div>
+                            <p>
+                                "ARK: Aberration" is an expansion for "ARK: Survival Evolved" that takes players to a
+                                challenging underground environment filled with mutated creatures, bioluminescent flora,
+                                and
+                                hazardous terrain, offering a unique and treacherous survival experience.</p>
+                        </div>
+                        <div class="dlc-link">
+                            <a href="#dlc-section">Get product</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!-- Section with the form -->
+        <section class="form-section" id="form">
+            <h2>Ark: Survival Ascended beta</h2>
+            <form action="https://docent.cmi.hr.nl/moora/frontend/send-mail.php">
+                <div class="form-fields">
+                    <div class="form-field">
+                        <label for="first-name">First name</label>
+                        <input type="text" id="first-name" name="first-name" placeholder="First name" required autocomplete="on">
+                    </div>
+                    <div class="form-field">
+                        <label for="last-name">Last name</label>
+                        <input type="text" id="last-name" name="last-name" placeholder="Last name" required>
+                    </div>
+                </div>
+                <div class="form-field">
+                    <label for="email">Emailadress</label>
+                    <input type="email" id="email" name="email" placeholder="Email" required autocomplete="on">
+                </div>
+                <div class="form-fields">
+                    <div class="form-field">
+                        <label for="residence">Area of residence</label>
+                        <input type="text" id="residence" name="residence" placeholder="Area of residence" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="birthdate">Date of birth</label>
+                        <input type="date" id="birthdate" name="birthdate" required>
+                    </div>
+                </div>
+                <div class="form-field">
+                    <label for="map">Map preference</label>
+                    <select name="map" id="map" required>
+                        <option value="" disabled selected>Choose a map</option>
+                        <option value="extinction">Extinction</option>
+                        <option value="abberation">Abberation</option>
+                        <option value="genesis">Genesis</option>
+                    </select>
+                </div>
+                <div class="form-field">
+                    <label for="extra-info">Extra information</label>
+                    <textarea id="extra-info" name="extra-info" required></textarea>
+                </div>
+                <div class="form-field">
+                    <aside>Sign up for our newsletter?</aside>
+                    <div>
+                        <input type="radio" id="yes" name="newsletter" value="yes" required>
+                        <label for="yes">Yes</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="no" name="newsletter" value="no" required>
+                        <label for="no">No</label>
+                    </div>
+                </div>
+                <div class="form-field" id="conditions">
+                    <input type="checkbox" id="agree" name="agree" required>
+                    <label for="agree">I agree with the terms and conditions</label>
+                </div>
+                <button type="submitt">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <section class="footer-section">
+            <div class="footer-logo">
+                <img src="images/wildcardLogo.jpeg">
+            </div>
+            <div class="footer-text">
+                <div>
+                    <small>Copyright 2023 Wildcard</small>
+                </div>
+                <div class="footer-links">
+                    <a href="">Privacy</a>
+                    <a href="">General conditions</a>
+                    <a href="">Cookies</a>
+                    <a href="">Contact</a>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
