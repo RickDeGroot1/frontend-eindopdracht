@@ -170,17 +170,19 @@
                     <label for="extra-info">Extra information</label>
                     <textarea id="extra-info" name="extra-info" required></textarea>
                 </div>
-                <div class="form-field">
-                    <aside>Sign up for our newsletter?</aside>
-                    <div>
-                        <input type="radio" id="yes" name="newsletter" value="yes" required>
-                        <label for="yes">Yes</label>
+                <fieldset>
+                    <legend>Sign up for our newsletter?</legend>
+                    <div class="form-field" id="fieldset-form-field">
+                        <div>
+                            <input type="radio" id="yes" name="newsletter" value="yes" required>
+                            <label for="yes">Yes</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="no" name="newsletter" value="no" required>
+                            <label for="no">No</label>
+                        </div>
                     </div>
-                    <div>
-                        <input type="radio" id="no" name="newsletter" value="no" required>
-                        <label for="no">No</label>
-                    </div>
-                </div>
+                </fieldset>
                 <div class="form-field" id="conditions">
                     <input type="checkbox" id="agree" name="agree" required>
                     <label for="agree">I agree with the terms and conditions</label>
