@@ -62,7 +62,7 @@ header {
     flex-direction: column;
     text-align: center;
     padding: 10px 30%;
-    background-image: url('/images/arkBg.png');
+    background-image: url('images/arkBg.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -295,7 +295,7 @@ footer a:hover {
     header {
         padding: 0px;
         height: 120vh;
-        background-image: url('/images/arkBgMobile.jpg');
+        background-image: url('images/arkBgMobile.jpg');
         object-fit: cover;
         align-items: center;
     }
